@@ -21,3 +21,10 @@ Rails.application.routes.draw do
  
   root 'posts#index'
 end
+
+# comment is nested in post and post is  nested in author 
+# resources :authors do
+#   resources :posts do
+#     resources :comments
+#   end
+# end
